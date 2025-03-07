@@ -4,6 +4,7 @@
  *--------------------------------------------------------------------------------------------*/
 
 import './style.js';
+import './media/custom.css';
 import { runWhenWindowIdle } from '../../base/browser/dom.js';
 import { Event, Emitter, setGlobalLeakWarningThreshold } from '../../base/common/event.js';
 import { RunOnceScheduler, timeout } from '../../base/common/async.js';

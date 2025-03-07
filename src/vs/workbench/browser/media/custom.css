@@ -1,0 +1,113 @@
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.mac {
+	font-family: SF Pro Text, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+.monaco-split-view2 > .monaco-scrollable-element {
+}
+.monaco-workbench {
+	color: #333333;
+}
+.sidebar .monaco-pane-view .pane > .pane-header {
+	height: 38px;
+}
+.monaco-drag-image,
+.monaco-list.list_id_1:focus .monaco-list-row.focused,
+.sidebar .monaco-pane-view .pane > .pane-header:focus {
+	outline: none !important;
+}
+.monaco-pane-view .pane>.pane-header h3.title  {
+	font-weight: 600;
+	font-size: 12px;
+}
+.sidebar.left {
+	border-radius: 8px 8px 0 0;
+	margin: 0 0 0 5px;
+}
+.sidebar .pane-body {
+	padding: 0 6px;
+}
+.sidebar .pane-header {
+	margin: 0 6px;
+}
+.monaco-workbench .activitybar > .content :not(.monaco-menu) > .monaco-action-bar .action-item.checked .active-item-indicator:before {
+	border-left-color: transparent !important;
+}
+.activitybar.left .checked .active-item-indicator {
+	background-color: #bebebe77 !important;
+	border-radius: 6px !important;
+	width: 42px !important;
+	height: 42px !important;
+	left: 3px !important;
+	top: 3px !important;
+}
+.monaco-workbench .activitybar > .content :not(.monaco-menu) > .monaco-action-bar .action-label.codicon {
+	font-size: 20px;
+}
+.icube-simple-style .auxiliarybar .monaco-pane-view .pane>.pane-header, .icube-simple-style .sidebar .monaco-pane-view .pane>.pane-header {
+	border-top: 1px solid transparent !important;
+}
+.file-icon-themable-tree.align-icons-and-twisties .monaco-tl-twistie:not(.force-twistie):not(.collapsible) {
+	visibility: visible !important;
+	width: 9px !important;
+}
+.monaco-tl-twistie:not(.codicon):not(.collapsible):before,
+.file-icon-themable-tree.align-icons-and-twisties .monaco-tl-twistie:not(.force-twistie):not(.collapsible):before {
+	width: 6px !important;
+	margin-right: 3px;
+	height: 6px;
+	background-color: #dddddd;
+	content: " ";
+}
+
+.monaco-workbench .codicon[class*='codicon-'].monaco-tl-twistie::before{
+	font-weight: bolder;
+	font-size: 13px;
+}
+.monaco-inputbox {
+	border-radius: 4px !important;
+}
+.explorer-folders-view .explorer-item, .explorer-folders-view .editor-group {
+	height: 26px !important;
+	line-height: 26px !important;
+}
+.monaco-list-row {
+	border-radius: 4px;
+}
+.monaco-list-row.selected.focused {
+	background-color: #4d61801f !important;
+	color: #333333 !important;
+	border-radius: 4px;
+}
+.monaco-list-row.selected .codicon {
+	color: #333333 !important;
+}
+.part.editor {
+	margin-left: 3px;
+	margin-right: 5px;
+	border-radius: 8px 8px 0 0;
+}
+.monaco-workbench .part.editor > .content .editor-group-container > .title {
+	background-color: #ffffff !important;
+	padding: 6px;
+	border-bottom: 1px solid #EAECEF;
+}
+.monaco-workbench .part.editor > .content .editor-group-container > .title > .tabs-and-actions-container {
+	margin-bottom: 6px;
+}
+.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab {
+	border-radius: 4px !important;
+	margin-right: 3px !important;
+	border:none !important;
+}
+.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab:not(.active) {
+	box-shadow: none;
+	background-color: #FFFFFF !important;
+	border:none !important
+}
+.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab:not(.active):hover {
+	background-color: #f7f7f7 !important;
+}
