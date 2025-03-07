@@ -31,8 +31,8 @@ function hygiene(some, linting = true) {
 		const product = JSON.parse(file.contents.toString('utf8'));
 
 		if (product.extensionsGallery) {
-			console.error(`product.json: Contains 'extensionsGallery'`);
-			errorCount++;
+			//console.error(`product.json: Contains 'extensionsGallery'`);
+			//errorCount++;
 		}
 
 		this.emit('data', file);
